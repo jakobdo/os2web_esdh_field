@@ -17,7 +17,7 @@ function os2web_esdh_field_field_info() {
   return array(
     'os2web_esdh_field_case_ident' => array(
       'label' => t('ESDH Case'),
-      'description' => t("Case ID is an integer. Only integers are allowed. Separate multiple case ID's by comma."),
+      'description' => t("Case ID is an integer. Only integers are allowed. Only one value is allowed."),
       'default_widget' => 'os2web_esdh_field_case_ident_wid',
       'default_formatter' => 'os2web_esdh_field_case_ident_for',
     ),
